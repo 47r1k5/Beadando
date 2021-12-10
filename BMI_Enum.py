@@ -1,0 +1,17 @@
+from enum import Enum
+
+class bmiAdultEnum(Enum):
+    SEVERE_THINNES=16
+    MODERATE_THINNES=17
+    MILD_THINNES=18.5
+    NORMAL=25
+    OVERWEIGHT=30
+    OBESE_I=35
+    OBESE_II=40
+    OBESE_III=41
+
+class bmiUnderAgeEnum(Enum):
+    UNDERWEIGHT=18
+    HEALTHY=27
+    RISK_OF_OVERWEIGHT=32
+    OVERWEIGHT=33
